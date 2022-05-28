@@ -1,0 +1,9 @@
+handbrakecli_pathname: "%userprofile%\\Apps\\Handbrake\\HandBrakeCLI.exe"
+handbrakecli_extra_parameters: "-e nvenc_h264 -- --encopts=\"gpu=any\""
+quality: 30
+ouput_dir: C:\ToT\Proxies
+input_base_dir: D:\ToT\
+directories:
+  "srs6/One R":
+    filename_patterns:
+    - "PRO_VID_202105*.mp4"
